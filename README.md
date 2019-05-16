@@ -2,7 +2,7 @@
 En el siguiente ejemplo se pretende virtualizar una base de datos Mysql usando la tecnología Docker 
 
 ### nota
-La tecnología Docker usa el Kernel de Linux y las funciones de este, como Cgroups y namespaces, para segregar los procesos, de     modo que puedan ejecutarse de manera independiente, por lo cual recominedo usar un sistema tipo linux,para hacerlo en este ejemplo usaré ubuntu,también  es posible hacerlo en otros sistemas operativos, pero eso te lo dejo de consulta :P 
+La tecnología Docker usa el Kernel de Linux y las funciones de este, como Cgroups y namespaces, para segregar los procesos, de     modo que puedan ejecutarse de manera independiente, por lo cual recomiendo usar un sistema tipo linux,para hacerlo en este ejemplo usaré ubuntu,también  es posible hacerlo en otros sistemas operativos, pero eso te lo dejo de consulta :P 
 
 ## Prerrequisito
    1) Tener instalado docker y docker compose.
