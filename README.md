@@ -47,9 +47,9 @@ La tecnología Docker usa el Kernel de Linux y las funciones de este, como Cgrou
   
   Paso Final (verificación) : nos aseguramos  que todo halla salido segun lo planeado, para ello nos autenticamos en el sevicio Mysql, entramos al schema "Arriendo" y verificamos que se hallan efectuado los cambios, es decir que no este vacío el schema
         
-        1) mysql -u root -p            -> despues de escribir esto, pedira nuevamente el la contraseña del usuario root, colorla 
-        2) use Arriendo;               -> entrar al schema Arriendo
-        3) show tables;                -> listar las tablas, si aparecen  las 3 tablas : "Apartamento" - "Convenio" - " Persona " nuestro trabajo habrá sido un éxito  
+        1) mysql -u root -p        -> despues de escribir esto, pedirá nuevamente  la contraseña del usuario root, colorla 
+        2) use Arriendo;           -> entrar al schema Arriendo
+        3) show tables;            -> listar las tablas, si aparecen  las 3 tablas : "Apartamento" - "Convenio" - " Persona " nuestro trabajo habrá sido un éxito  
 
             
                    
