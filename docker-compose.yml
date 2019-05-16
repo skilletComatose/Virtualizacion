@@ -1,0 +1,12 @@
+version: '3'   # se establece la version de docker compose que se va a usar 
+services:     
+  Database:
+    container_name: MYDATABASE   # asigna el nombre del Contenedor donde esta virtualizada la base de datos
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password 
+    restart: always           # en caso de fallo en la instalacion reinicia el servicio
+    environment:              # Para definir las variables de entorno  de la base de datos 
+      MYSQL_DATABASE: Arriendo # asigna un nombre a la base de datos 
+      MYSQL_USER: user1    # este campo define un usuario adicinal al usuario root en case de que lo necesite 
+      MYSQL_PASSWORD: someone  # password para el user1
+      MYSQL_ROOT_PASSWORD: nobody   # password para el usuario root
