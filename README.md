@@ -1,4 +1,4 @@
-# Virtualizacion
+# Virtualización
 En el siguiente ejemplo se pretende virtualizar una base de datos Mysql usando la tecnología Docker 
 
 ### nota
